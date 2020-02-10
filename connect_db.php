@@ -3,7 +3,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $databasename = "";
+    $databasename = "adhd";
     
     
     // Met de onderstaande functie maakt PHP contact met de mysql-server
