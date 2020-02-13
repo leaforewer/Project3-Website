@@ -44,7 +44,7 @@
 
         <!-- content -->
         <div class="row">
-            <div class="col-12 fixed-bottom">
+            <div class="col-12 bottom">
                 <?php include("./footer.php"); ?>
             </div>
         </div>

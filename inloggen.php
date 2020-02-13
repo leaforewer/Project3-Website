@@ -18,14 +18,15 @@
                 <input type="text" class="form-control" id="lastname" aria-describedby="lastnameHelp" name="lastname">
                 <small id="lastnameHelp" class="form-text text-muted">*Vul hier uw wachtwoord in.</small>
             </div>
+            <div class="col-12" style="padding: 15px;">
+                <button type="submit" class="btn btn-primary submit">Versturen</button>
+            </div>
 
         </form>
     </div>
     <div class="col-12" style="padding: 15px;">
-        <button type="submit" class="btn btn-primary submit">Versturen</button>
-        <div class="col-12" style="padding: 15px;">
-            <div class="form-group">
-                <span style="padding-right: 1px;"> Not a member?</span>
-                <a class="link" href="./index.php?content=aanmelden">Create a new account!<span id="create" style="padding-right: 5px;"></span>
-            </div>
+        <div class="form-group">
+            <span style="padding-right: 1px;"> Not a member?</span>
+            <a class="link" href="./index.php?content=aanmelden">Create a new account!<span id="create" style="padding-right: 5px;"></span></a>
         </div>
+    </div>

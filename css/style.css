@@ -105,17 +105,16 @@ body {
     border: gray 1.2px solid;
   }
 
-
-.footer{
-  text-align: center;
-}
-
 .submit{
   padding-top: 150px;
 }
 
 #create{
   color: #0883FF;
+}
+
+#Help{
+  color: red;
 }
 
   
