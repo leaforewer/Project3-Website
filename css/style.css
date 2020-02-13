@@ -98,41 +98,39 @@ body {
     #mainNav .navbar-nav .nav-item .nav-link {
       padding: 1.1em 1em !important;
     }
-    #mainNav.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
-      background-color: #15171a;
-    }
-    #mainNav.navbar-shrink .navbar-brand {
-      font-size: 1.25em;
-      padding: 12px 0;
-    }
+
   }
-  
-  header.masthead {
-    text-align: center;
-    color: white;
-    background-image: url("../img/guitar-wallpaper.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    width: 100%;
-  }
-  
-  header.masthead .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-  }
-  
-  header.masthead .intro-text .intro-lead-in {
-    font-size: 22px;
-    color: #fed136;
-    font-style: italic;
-    line-height: 22px;
-    margin-bottom: 25px;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
-.footer{
-  text-align: center;
+
+.header-sign{
+  background-attachment: scroll;
+  background-image: none;
+  background-origin: padding-box;
+  background-color:rgba(79, 88, 96, 0.9);
+  background-size: auto;
+  color: rgb(51, 51, 51);
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 44px;
+  left: 0px;
+  line-height: 24px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
+
+.sign-link{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  position: relative;
+  align-items: right;
+  padding: 1.1em 1em !important;
+}
+.sign-link:hover{
+  color: #fed136;
 }
