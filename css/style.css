@@ -120,6 +120,10 @@ body {
     width: 100%;
   }
   
+  .abc{
+    border: gray 1.2px solid;
+  }
+
   header.masthead .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -135,4 +139,12 @@ body {
   }
 .footer{
   text-align: center;
+}
+
+.submit{
+  padding-top: 150px;
+}
+
+#create{
+  color: #0883FF;
 }
