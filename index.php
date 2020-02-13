@@ -37,7 +37,7 @@
 
         <!-- content -->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 content-st">
                 <?php include("./content.php"); ?>
             </div>
         </div>

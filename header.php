@@ -1,7 +1,11 @@
 <div class="header-sign">
   <ul class="navbar-nav text-uppercase ml-auto">
-    <li>
-      <a class="sign-link" href="index.php?content=inloggen">SIGN UP</a>
+    <li class="nav-item">
+      <a class="sign-link nav-link" href="index.php?content=inloggen">SIGN UP</a>
     </li>
   </ul>
+</div>
+<div class="color-bar">
+<img src="#" alt="">
+
 </div>
