@@ -19,34 +19,37 @@
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-12">
-            <!-- navbar -->
-            <?php include("./navbar.php"); ?>
-        </div>
-
-    </div>
     <!-- header -->
-    <div>
+
+
+    <div class=" top">
         <?php include("./header.php"); ?>
     </div>
+
+
+
+    <!-- navbar -->
+    <div class="col-12">
+        <?php include("./navbar.php"); ?>
+    </div>
+
     <main class="container">
 
-    <!-- content -->
-     <div class="row">
-        <div class="col-12">
-            <?php include("./content.php"); ?>
+        <!-- content -->
+        <div class="row">
+            <div class="col-12">
+                <?php include("./content.php"); ?>
+            </div>
         </div>
-    </div>
-    
-    <!-- content -->
-     <div class="row">
-        <div class="col-12">
-            <?php include("./footer.php"); ?>
-        </div>
-    </div>
 
-    
+        <!-- content -->
+        <div class="row">
+            <div class="col-12 fixed-bottom">
+                <?php include("./footer.php"); ?>
+            </div>
+        </div>
+
+
 
 
     </main>

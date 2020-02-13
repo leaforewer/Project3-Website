@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top back-image" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-dark back-image" style="padding-top: 15px" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="./index.php?content=home">ADHD</a>
 
