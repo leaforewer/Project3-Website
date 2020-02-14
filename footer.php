@@ -1,1 +1,3 @@
-<h4>Attenyion</h4>
+<footer class="fixed-bottom">
+<h4 style="text-align: center">Attention</h4>
+</footer>

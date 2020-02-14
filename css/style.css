@@ -108,21 +108,20 @@ img::-moz-selection {
 
 .abc {
     border: gray 1.2px solid;
-  }
-
-.submit{
-  padding-top: 150px;
 }
 
 .submit {
     padding-top: 150px;
 }
 
-#Help{
-  color: red;
+.submit {
+    padding-top: 150px;
 }
 
-  
+#Help {
+    color: red;
+}
+
 #create {
     color: #0883FF;
 }
@@ -165,4 +164,16 @@ img::-moz-selection {
 
 .sign-link:hover {
     color: #fed136;
+}
+
+.hero-content {
+    align-items: flex-end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.headline-1 {
+    color: #262935;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
 }
