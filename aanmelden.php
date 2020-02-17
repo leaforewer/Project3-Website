@@ -17,7 +17,7 @@
             </div>
             <div class="form-group">
                 <label for="lastname">Wachtwoord</label>
-                <input type="text" class="form-control" id="password" aria-describedby="passwordHelp" name="password">
+                <input type="password" class="form-control" id="password" aria-describedby="passwordHelp" name="password">
                 <small id="Help" class="form-text ">*Verplicht veld</small>
             </div>
             <div class="form-group">
