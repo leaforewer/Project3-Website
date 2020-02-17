@@ -1,3 +1,9 @@
-<footer class="fixed-bottom">
+<!-- <footer class="fixed-bottom">
 <h4 style="text-align: center">Attention</h4>
-</footer>
+</footer> -->
+
+<div class="footer1" id="footer">
+            <div class="footer-copyright text-center py-3 " id="footer1">© 2019 Copyright:
+                <a id="footer2"> De LEAF</a>
+            </div>
+        </div>
