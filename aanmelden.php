@@ -12,7 +12,7 @@
             </div>
             <div class="form-group">
                 <label for="infix">E-mailadres</label>
-                <input type="text" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
                 <small id="Help" class="form-text ">*Verplicht veld</small>
             </div>
             <div class="form-group">
