@@ -21,11 +21,6 @@
                 <small id="Help" class="form-text ">*Verplicht veld</small>
             </div>
             <div class="form-group">
-                <label for="lastname">Handtekening</label>
-                <input type="text" class="form-control" id="handteken" aria-describedby="handtekenHelp" name="handteken">
-                <small id="Help" class="form-text text-muted">*Vul hier uw forum handtekening in.</small>
-            </div>
-            <div class="form-group">
                 <label for="lastname">Nationaliteit</label>
                 <select id="nationaliteit" name="nationaliteit" style="padding-left: 15px;">
                     <option value='belgiscsh'>Belgisch</option>
@@ -66,9 +61,14 @@
                     <option value='Noors'>Noors</option>
                     <option value='zwitsers'>Zwitsers</option>
                     <option value='luxemburgs'>Luxemburgs</option>
-                    <option value='iraaks'>Iraaks</option>    
+                    <option value='iraaks'>Iraaks</option>
                 </select>
                 <small id="Help" class="form-text text-muted">*Vul hier uw Nationaliteit in.</small>
+            </div>
+            <div class="form-group">
+                <label for="lastname">Handtekening</label>
+                <input type="checkbox" value="Yes" class="form-control" id="handteken" aria-describedby="handtekenHelp" name="handteken">
+                <small id="Help" class="form-text text-muted">*Selecteer hier uw forum handtekening.</small>
             </div>
             <div class="col-12" style="padding: 15px;">
                 <button type="submit" class="btn btn-primary submit">Versturen</button>
