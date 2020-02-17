@@ -9,7 +9,7 @@
                         <a class="nav-link" href="./index.php?content=informatie">Informatie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">navbar</a>
+                        <a class="nav-link" href="./index.php?content=users">Users</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">navbar</a>
