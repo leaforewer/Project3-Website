@@ -1,5 +1,6 @@
 <?php
  include("./connect_db.php");
+ include("./sanitize.php");
 
 //  include("./functions.php");
 
