@@ -67,6 +67,7 @@
             </div>
             <div class="form-group">
                 <label for="lastname">Handtekening</label>
+                <input type="hidden" value="No" class="form-control" id="handtekenHidden" aria-describedby="handtekenHelp" name="handteken">
                 <input type="checkbox" value="Yes" class="form-control" id="handteken" aria-describedby="handtekenHelp" name="handteken">
                 <small id="Help" class="form-text text-muted">*Selecteer hier uw forum handtekening.</small>
             </div>
