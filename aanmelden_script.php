@@ -24,9 +24,31 @@
         if (mysqli_num_rows($result)) {
             header("Location: ./index.php?content=message&alert=emailexists");
         } else {
-            $password = "geheim";
-            $password_hash = password_hash($password, PASSWORD_BCRYPT);
-            echo $password_hash; exit();
+            $username = sanitize($_POST["username"]);
+            $email = sanitize($_POST["email"]);
+            $password = sanitize($_POST["password"]);
+            $handteken = sanitize($_POST["handteken"]);
+            $nationaliteit = sanitize($_POST["nationaliteit"]);
+    
+
+$query = "INSERT INTO `users` (`id`,
+                               `username`, 
+                               `email`, 
+                               `password`,
+                               `nationaliteit`,
+                               `handteken`)
+                      values (NULL,
+                              '$username',
+                              '$email',
+                              '$password',
+                              '$nationaliteit',
+                              '$handteken')";
+// echo $query; exit();
+mysqli_query($conn, $query);                            
+
+// Met de header functie kan je de browser naar een andere pagina laten gaan.
+header("Refresh: 3; index.php?content=users");
+            // header("Refresh: 3; index.php?content=create_users");
         }
         
 
