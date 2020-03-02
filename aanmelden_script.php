@@ -26,7 +26,7 @@
         } else {
             $password = "geheim";
             $password_hash = password_hash($password, PASSWORD_BCRYPT);
-            echo $password_hash; exit();
+            header("Location: ./index.php?content=create_users");
         }
         
 
