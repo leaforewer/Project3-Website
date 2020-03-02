@@ -3,7 +3,7 @@
         <h3>Aanmelden</h3>
     </div>
     <div class="col-6 abc">
-        <form action="./index.php?content=create_users" method="post">
+        <form action="./index.php?content=aanmelden_script" method="post">
 
             <div class="form-group">
                 <label for="firstname">Gebruikersnaam</label>
