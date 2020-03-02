@@ -1,13 +1,12 @@
 <?php
     // Hieronder staan de waarden die nodig zijn voor het contaact maken met de mysql-server
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $databasename = "adhd";
+    define("SERVERNAME", "localhost");
+    define("USERNAME", "ahmet");
+    define("PASSWORD", "ahmet");
+    define("DATABASENAME", "adhd");
     
+    $conn = mysqli_connect(SERVERNAME, USERNAME, PASSWORD, DATABASENAME);
     
-    // Met de onderstaande functie maakt PHP contact met de mysql-server
-    $conn = mysqli_connect($servername, $username, $password, $databasename);
 ?>
 
 <?php
