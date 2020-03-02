@@ -1,7 +1,7 @@
 <?php
     switch ($_GET["alert"]) {
         case 'no-email': 
-            echo'<div class="alert alert-info w-50 mx-auto mt-5" name="alert" role="alert">
+            echo'<div class=" col-12 alert alert-info w-50 mx-auto mt-5" name="alert" role="alert">
             <h4 class="alert-heading">Geen e-mailadres ingevuld!</h4>
             <p>U bent verplicht uw e-mailadres in te vullen voor het registreren. Na het registreren krijgt u een activatiemail binnen</p>
             <hr>
@@ -9,7 +9,7 @@
             </div>';
         break;
         case 'emailexists':
-            echo'<div class="alert alert-danger w-50 mx-auto mt-5" name="alert" role="alert">
+            echo'<div class=" col-12 alert alert-danger w-50 mx-auto mt-5" name="alert" role="alert">
             <h4 class="alert-heading">E-mailadres bestaat al!</h4>
             <p>Het door u ingevulde e-mailadres bestaat al in de database. Kies om nieuw e-mailadres</p>
             <hr>
