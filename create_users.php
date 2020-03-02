@@ -1,7 +1,7 @@
 <?php
  include("./connect_db.php");
 
- include("./functions.php");
+//  include("./functions.php");
 
 
 // var_dump($_POST);
@@ -17,14 +17,14 @@ $query = "INSERT INTO `users` (`id`,
                                `username`, 
                                `email`, 
                                `password`,
-                               `handteken`,
-                               `nationaliteit`)
+                               `nationaliteit`,
+                               `handteken`)
                       values (NULL,
                               '$username',
                               '$email',
                               '$password',
-                              '$handteken',
-                              '$nationaliteit')";
+                              '$nationaliteit',
+                              '$handteken')";
 // echo $query; exit();
 mysqli_query($conn, $query);                            
 

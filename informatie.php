@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./css/style2.css">
+<link rel="stylesheet" href="./css/style.css">
 
 <div class="jumbotron" id="jumbotron1">
     <h1 class="display-4" id="Jumbotron_title" style="text-align:center;">Informatie</h1>
@@ -11,10 +11,10 @@
 <div id="accordion">
     <!-- eerste tab -->
     <div class="card">
-        <div class="card-header" id="headingOne">
+        <div class="card-header" id="headingOne" >
             <h5 class="mb-0">
                 <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="card_collapse_text">
-                    ADHD
+                    ADHD 
                 </button>
             </h5>
         </div>
