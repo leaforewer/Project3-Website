@@ -44,7 +44,8 @@ $query = "INSERT INTO `users` (`id`,
                               '$nationaliteit',
                               '$handteken')";
 // echo $query; exit();
-mysqli_query($conn, $query);                            
+mysqli_query($conn, $query); 
+                        
 
 // Met de header functie kan je de browser naar een andere pagina laten gaan.
 header("Refresh: 3; index.php?content=users");
@@ -55,10 +56,9 @@ header("Refresh: 3; index.php?content=users");
     }   
 
 ?>
-
 <main class="container">
         <!-- jumbotron -->
-        <div class="row">
+        
             <div class="col-12">
                 <div class="jumbotron jumbotron-fluid text-center" id="jumbotron1">
                     <div class="container">
@@ -66,5 +66,5 @@ header("Refresh: 3; index.php?content=users");
                     </div>
                 </div>
             </div>
-        </div>
+        
 </main>
