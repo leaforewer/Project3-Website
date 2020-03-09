@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/3000599.jpg");
+    background-image: url("../img/wallpaper.png");
     background-size: cover;
     background-position-y: 150px;
     background-repeat: no-repeat;
@@ -107,7 +107,8 @@ img::-moz-selection {
 }
 
 .abc {
-    border: gray 1.2px solid;
+    border: #262935 2px solid;
+    border-radius: 25px;
 }
 
 .submit {
@@ -174,6 +175,7 @@ img::-moz-selection {
     font-style: italic;
 }
 
-.alert {
-    text-align: center;
+.text-content {
+    background-color: #6CCCCE;
+    border-radius: 25px;
 }

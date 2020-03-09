@@ -14,6 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     
 
@@ -39,15 +40,15 @@
     <main class="container">
 
         <!-- content -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-10 col-md-9 col-centered">
+
+            <div class="col-12">
                 <?php include("./content.php"); ?>
             </div>
-        </div>
+
 
         <!-- content -->
         <div class="row">
-            <div class="col-12 bottom">
+            <div class="col-12">
                 <?php include("./footer.php"); ?>
             </div>
         </div>
