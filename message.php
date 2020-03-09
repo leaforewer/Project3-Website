@@ -16,6 +16,22 @@
             <p class="mb-0">U wordt teruggestuurd naar de registratiepagina</p>
             </div>';
         break;
+        case 'no-username': 
+            echo'<div class=" col-12 alert alert-info w-50 mx-auto mt-5" name="alert" role="alert">
+            <h4 class="alert-heading">Geen username ingevuld!</h4>
+            <p>U bent verplicht uw username in te vullen voor het registreren. Na het registreren krijgt u een activatiemail binnen</p>
+            <hr>
+            <p class="mb-0">U wordt teruggestuurd naar de registratiepagina</p>
+            </div>';
+        break;
+        case 'no-password': 
+            echo'<div class=" col-12 alert alert-info w-50 mx-auto mt-5" name="alert" role="alert">
+            <h4 class="alert-heading">Geen password ingevuld!</h4>
+            <p>U bent verplicht uw password in te vullen voor het registreren. Na het registreren krijgt u een activatiemail binnen</p>
+            <hr>
+            <p class="mb-0">U wordt teruggestuurd naar de registratiepagina</p>
+            </div>';
+        break;
         default;
     break;
     }
@@ -37,4 +53,3 @@
 
 // }
 header("Refresh: 3; index.php?content=aanmelden");
-?> 
