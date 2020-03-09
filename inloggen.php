@@ -2,6 +2,7 @@
         <h3>Inloggen<h3>
     </div>
     <div class="col-6 abc">
+    <form action="./index.php?content=inloggen_script" method="post">
         <form action="" method="post">
             <div class="form-group">
                 <label for="firstname">Gebruikersnaam</label>
