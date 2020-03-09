@@ -30,7 +30,7 @@ if (empty($_POST["email"])) {
     } else {
         $username = sanitize($_POST["username"]);
         $email = sanitize($_POST["email"]);
-        $password = sanitize($_POST["password"]);
+        
         $handteken = sanitize($_POST["handteken"]);
         $nationaliteit = sanitize($_POST["nationaliteit"]);
 
@@ -47,7 +47,7 @@ if (empty($_POST["email"])) {
                       values (NULL,
                               '$username',
                               '$email',
-                              '$password',
+                              '$password_hash',
                               '$nationaliteit',
                               '$handteken')";
         // echo $query; exit();

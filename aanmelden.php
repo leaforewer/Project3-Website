@@ -68,12 +68,12 @@
             <div class="form-group">
 
                 <input type="hidden" value="No" class="form-control" id="handtekenHidden" aria-describedby="handtekenHelp" name="handteken">
-                <div style="font-size: 14px">
+                <div style="font-size: 14px; padding-left: 15px;">
                     <p>
-                        <li>Ik stem in met de <a href="">voorwaarden en bepalingen</a> </li>
+                        <input  class="form-check-input" type="checkbox" value="Yes" class="form-control" id="handteken" aria-describedby="handtekenHelp" name="handteken">
+                        Ik stem in met de <a href="/files/Algemene_voorwaarden_123" download="Algemene voorwaarden.pdf">voorwaarden en bepalingen</a>
                     </p>
                 </div>
-                <input style="width: 28px; height: 28px" type="checkbox" value="Yes" class="form-control" id="handteken" aria-describedby="handtekenHelp" name="handteken">
                 <small id="Help" class="form-text text-muted">*Selecteer hier uw forum handtekening.</small>
             </div>
             <div class="col-12" style="padding: 15px;">
