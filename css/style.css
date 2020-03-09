@@ -109,6 +109,8 @@ img::-moz-selection {
 .abc {
     border: #262935 2px solid;
     border-radius: 25px;
+    font-size: 18px;
+    padding: 15px;
 }
 
 .submit {
@@ -116,7 +118,7 @@ img::-moz-selection {
 }
 
 #Help {
-    color: red;
+    color: whitesmoke;
 }
 
 #create {
