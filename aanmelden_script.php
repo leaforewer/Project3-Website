@@ -34,8 +34,11 @@ if (empty($_POST["email"])) {
         $handteken = sanitize($_POST["handteken"]);
         $nationaliteit = sanitize($_POST["nationaliteit"]);
 
+        $password = "geheim";
+        $password_hash = password_hash($password, PASSWORD_BCRYPT);
 
-        $query = "INSERT INTO `users` (`id`,
+
+        $sql = "INSERT INTO `users` (`id`,
                                `username`, 
                                `email`, 
                                `password`,
@@ -48,9 +51,46 @@ if (empty($_POST["email"])) {
                               '$nationaliteit',
                               '$handteken')";
         // echo $query; exit();
-        mysqli_query($conn, $query);
+        $result = mysqli_query($conn, $sql);
 
+        // Deze functie 
+        $id = mysqli_insert_id($conn);
 
+        if ($result) {
+            $to = $email;
+            $subject = "Uw activatielink voor uw account van autos.nl";
+            $message = '<!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Document</title>
+                        </head>
+                        <body> 
+                            <h1>Beste gebruiker,</h1>
+                            <p>U heeft zich zojuist geregistreerd op de site www.adhd.nl</p>
+                            <p>Door het klikken op de onderstaande link voltooid u het activatieproces</p>
+                            <p>Klik <a href="http://www.adhd.org/index.php?content=activate&id=' . $id . '&pwh=' . $password_hash . '">hier</a> voor activatie</p>
+                            <p>Bedankt voor het registreren</p>
+                            <p>Met vriendelijke groet,</p>
+                            <p>fdfdffdf</p>
+                            <p>CEO adhd.nl</p> 
+                        </body>
+                        </html>';
+                            
+
+            $headers = "MIME-Version: 1.0\r\n";
+            $headers .= "Content-type: text/html; charset=UTF-8\r\n";
+            $headers .= "From: admin@autos.nl\r\n";
+            $headers .= "Cc: hoofdinspecteur@belastingdienst.nl\r\n";
+            $headers .= "Bcc: politie@politie.nl";
+        
+            mail($to, $subject, $message, $headers); 
+            header("Location: ./index.php?content=message&alert=register-success"); 
+        } else {
+            header("Location: ./index.php?content=message&alert=insert-mail-error");
+        }
+        
         // Met de header functie kan je de browser naar een andere pagina laten gaan.
         header("Refresh: 3; index.php?content=users");
         // header("Refresh: 3; index.php?content=create_users");

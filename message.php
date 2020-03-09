@@ -32,9 +32,30 @@
             <p class="mb-0">U wordt teruggestuurd naar de registratiepagina</p>
             </div>';
         break;
-        default;
+        case 'insert-mail-error':
+            echo'<div class="alert alert-danger w-50 mx-auto mt-5" name="alert" role="alert">
+            <h4 class="alert-heading">Het registratie proces is afgebroken!</h4>
+            <p>Probeer het opnieuw. Wanneer u deze melding opnieuw krijgt, neem dan contact op met de databasebeheerder.</p>
+            <hr>
+            <p class="mb-0">U wordt teruggestuurd naar de registratiepagina</p>
+            </div>';
+        break;
+        case 'register-success':
+            $time = 6;
+            $page = "inloggen";
+            echo'<div class="alert alert-success w-50 mx-auto mt-5" name="alert" role="alert">
+            <h4 class="alert-heading">Activatiemail verstuurd!</h4>
+            <p>U bent succesvol geregistreerd in de database. U ontvangt een e-mail met daarin een activatielink. Na het klikken
+            op de link kunt u een password instellen. </p>
+            <hr>
+            <p class="mb-0">U wordt teruggestuurd naar de inlogpagina</p>
+            </div>';
+        break;
+        default:
+            header("Location: ./index.php?content=home");
     break;
     }
+    header("Refresh: 3; index.php?content=inloggen");
 
 // if ($_GET["alert"] == 'no-email') {
 //     echo'<div class="alert alert-info w-50 mx-auto mt-5" name="alert" role="alert">
@@ -52,4 +73,3 @@
 //     </div>';
 
 // }
-header("Refresh: 3; index.php?content=aanmelden");
