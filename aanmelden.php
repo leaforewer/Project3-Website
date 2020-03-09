@@ -77,6 +77,6 @@
         </form>
     </div>
     <div class="col-6">
-        <img src="./img/registreren1.jpg" style="width: 450px; height: 450px; " alt="aanmelden">
+        <img src="./img/registreren1.png" style="width: 450px; height: 450px; " alt="aanmelden">
     </div>
 </div>
