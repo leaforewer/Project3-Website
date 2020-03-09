@@ -21,8 +21,8 @@
                 <small id="Help" class="form-text ">*Verplicht veld</small>
             </div>
             <div class="form-group">
-                <label for="lastname">Nationaliteit</label>
-                <select id="nationaliteit" name="nationaliteit" style="padding-left: 15px;">
+                <label style="padding-right: 350px; padding-bottom: 5px;" for="lastname">Nationaliteit</label>
+                <select id="nationaliteit" name="nationaliteit" style="padding-left: 30px; padding-top: 2px; padding-bottom: 2px;">
                     <option value='belgiscsh'>Belgisch</option>
                     <option value='nederlands'>Nederlands</option>
                     <option value='chinees'>Chinees</option>
@@ -66,9 +66,14 @@
                 <small id="Help" class="form-text text-muted">*Vul hier uw Nationaliteit in.</small>
             </div>
             <div class="form-group">
-                <label for="lastname">Handtekening</label>
+
                 <input type="hidden" value="No" class="form-control" id="handtekenHidden" aria-describedby="handtekenHelp" name="handteken">
-                <input type="checkbox" value="Yes" class="form-control" id="handteken" aria-describedby="handtekenHelp" name="handteken">
+                <div style="font-size: 14px">
+                    <p>
+                        <li>Ik stem in met de <a href="">voorwaarden en bepalingen</a> </li>
+                    </p>
+                </div>
+                <input style="width: 28px; height: 28px" type="checkbox" value="Yes" class="form-control" id="handteken" aria-describedby="handtekenHelp" name="handteken">
                 <small id="Help" class="form-text text-muted">*Selecteer hier uw forum handtekening.</small>
             </div>
             <div class="col-12" style="padding: 15px;">
