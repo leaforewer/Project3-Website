@@ -58,7 +58,7 @@ if (empty($_POST["email"])) {
 
         if ($result) {
             $to = $email;
-            $subject = "Uw activatielink voor uw account van autos.nl";
+            $subject = "Uw activatielink voor uw account van adhd.nl";
             $message = '<!DOCTYPE html>
                         <html lang="en">
                         <head>
@@ -81,7 +81,7 @@ if (empty($_POST["email"])) {
 
             $headers = "MIME-Version: 1.0\r\n";
             $headers .= "Content-type: text/html; charset=UTF-8\r\n";
-            $headers .= "From: admin@autos.nl\r\n";
+            $headers .= "From: admin@adhd.nl\r\n";
             $headers .= "Cc: hoofdinspecteur@belastingdienst.nl\r\n";
             $headers .= "Bcc: politie@politie.nl";
         
