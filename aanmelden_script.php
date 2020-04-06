@@ -72,7 +72,7 @@ if (empty($_POST["email"])) {
                             <h1>Beste gebruiker,</h1>
                             <p>U heeft zich zojuist geregistreerd op de site www.adhd.nl</p>
                             <p>Door het klikken op de onderstaande link voltooid u het activatieproces</p>
-                            <p>Klik <a href="http://www.adhd.org/index.php?content=activate&id=' . $id . '&pwh=' . $password_hash . '">hier</a> voor activatie</p>
+                            <p>Klik <a href="http://www.adhd.com/index.php?content=activate&id=' . $id . '&pwh=' . $password_hash . '">hier</a> voor activatie</p>
                             <p>Bedankt voor het registreren</p>
                             <p>Met vriendelijke groet,</p>
                             <p>fdfdffdf</p>
