@@ -1,0 +1,268 @@
+[33mcommit 317771d0147712507a1e2300b97bee004f33e2aa[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Thu Mar 19 13:07:34 2020 +0100
+
+    Emailadres verbeterd
+
+[33mcommit ab78dcca851970377b4aac39340f3476880a02b7[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Mar 9 15:57:10 2020 +0100
+
+    v1.4
+
+[33mcommit 54e265345224b5725fb003ac0e175c53b5ff1f92[m
+Merge: 95f1d26 7b62645
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Mar 9 15:27:20 2020 +0100
+
+    Merge branch 'master' of https://github.com/leaforewer/Project3-Website
+
+[33mcommit 95f1d2650bf030848047d274b2ba9d6d7cb41826[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Mar 9 15:27:12 2020 +0100
+
+    email activation
+
+[33mcommit 7b6264529a3b38339099d1accb82ada7e4ab8304[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Mar 9 15:26:53 2020 +0100
+
+    aanmeld fixed
+
+[33mcommit 6d130217e10c179be3230b8e03ac57637f39588c[m
+Merge: cded420 868e8fb
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Mar 9 15:00:48 2020 +0100
+
+    Merge branch 'master' of https://github.com/leaforewer/Project3-Website
+
+[33mcommit 868e8fbd6ee5bb3b5dc8ba2883d295d22f051b35[m
+Merge: 7e6b7f4 883b93f
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Mar 9 15:00:07 2020 +0100
+
+    hjk
+
+[33mcommit cded420029bf69c531b89ba1f3fc556764f71733[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Mar 9 14:58:49 2020 +0100
+
+    v.1.3
+
+[33mcommit 7e6b7f4dae22f9f29653ef9336f337489fa0ae1d[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Mar 9 12:46:04 2020 +0100
+
+    message toegevoegd
+
+[33mcommit 883b93fa976030414d2054d6c47b97411ede58c1[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Mar 9 12:45:10 2020 +0100
+
+    volledig versie
+
+[33mcommit 29492cc51606ae067bd5a078aa730c2dbef6a5f4[m
+Merge: 5e92ae0 a1ae830
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Mar 2 14:49:56 2020 +0100
+
+    alles opgelost2
+
+[33mcommit 5e92ae0645034b833a5db19130c8651913376b58[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Mar 2 14:48:48 2020 +0100
+
+    alles is opgelost2
+
+[33mcommit a1ae8303f7b139b60f0a5049c16f58d2ef487119[m
+Merge: afda3e5 2965631
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Mar 2 14:48:08 2020 +0100
+
+    alles is opgelost
+
+[33mcommit afda3e58e0aa9acd18337929bec75269d3e14d6f[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Mar 2 14:38:57 2020 +0100
+
+    asd
+
+[33mcommit 2965631ae24ac9b55ac2ac3094cff36f96fc9f7a[m
+Merge: c951029 deda93f
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Mar 2 14:37:51 2020 +0100
+
+    aaa
+
+[33mcommit c9510292ba13ef7b1edad86b8c02ba869ce91029[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Mar 2 14:36:05 2020 +0100
+
+    message
+
+[33mcommit deda93ff022eb2da4e1f8cefc39d60646b0daacb[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Mar 2 13:11:31 2020 +0100
+
+    dsa
+
+[33mcommit 2948000ba53d146af1c22a88264dd0f5dd768d6c[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Mar 2 12:57:55 2020 +0100
+
+    registersql
+
+[33mcommit b7d26832ca78a9c1fee68d40844b38e9c78ccf23[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Mar 2 12:57:17 2020 +0100
+
+    abc
+
+[33mcommit e2c0bc97d6375ea576b1e1aa5edad7acb162d00f[m
+Merge: f0ef30a f5f8a27
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Mar 2 12:29:28 2020 +0100
+
+    Merge branch 'master' of https://github.com/leaforewer/Project3-Website
+
+[33mcommit f0ef30a4fa9edd3fc89cac7b446bc0785a24475b[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Mar 2 12:27:40 2020 +0100
+
+    upgrade
+
+[33mcommit f5f8a27215c62ec70ed7eb406b8112a03e7fc13e[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Mar 2 12:25:35 2020 +0100
+
+    connectdb
+
+[33mcommit ce50b7b6e471a68aeee1977071e65fd223e45f68[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Thu Feb 27 17:42:04 2020 +0100
+
+    asd
+
+[33mcommit 5a6180c0f9c9e5b6f2de23c16847f8185724d2df[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Feb 17 16:44:46 2020 +0100
+
+    email changed
+
+[33mcommit ee19400a83606d1f8334b35fb5d58b009d7741c4[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Feb 17 16:10:29 2020 +0100
+
+    password
+
+[33mcommit baa6e120ba479b98424a90e2a7c500bb1edef4bd[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Feb 17 16:07:49 2020 +0100
+
+    handteken
+
+[33mcommit 693d30c71f603303c9e72b32306d4a9e81bc9711[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Feb 17 15:58:20 2020 +0100
+
+    nationaliteit changed
+
+[33mcommit ef545e97bd1c8d3b44fccdb7d91e0fbe5f012ce9[m
+Merge: c7f1289 56220b0
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Feb 17 15:33:08 2020 +0100
+
+    Merge branch 'master' of https://github.com/leaforewer/Project3-Website
+
+[33mcommit 56220b0d48053a705e30da8fb09b55737a73a085[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Feb 17 15:20:38 2020 +0100
+
+    delete en update
+
+[33mcommit c7f1289bb04c45bfd3fb3436a4ff9dc64a73a996[m
+Merge: d65141d 8eb226a
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Feb 17 14:05:14 2020 +0100
+
+    Merge branch 'master' of https://github.com/leaforewer/Project3-Website
+
+[33mcommit d65141d86d0140c1484c226b68a81c789ea51342[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Feb 17 14:02:57 2020 +0100
+
+    font changed
+
+[33mcommit 8eb226a6f5711ca4c1959f98492e600a6eb754e8[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Feb 17 13:34:00 2020 +0100
+
+    informatie pagina
+
+[33mcommit 2c655423b9cedf8fc5c4f6bdf74862d5d0265773[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Feb 17 13:17:20 2020 +0100
+
+    Database
+
+[33mcommit 122363265cacca961cb726edd1b5b6295d7c06e9[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Fri Feb 14 13:51:40 2020 +0100
+
+    14.02.2020
+
+[33mcommit e684b7608da29ba785386480f7fc8d17a526b8ec[m
+Merge: 0b8ba10 d9148f5
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Thu Feb 13 15:09:55 2020 +0100
+
+    eind van les 1
+
+[33mcommit 0b8ba1046262a1619d15ec6d7c75d03a9b297dee[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Thu Feb 13 15:07:36 2020 +0100
+
+    Aanmeld en inlog pagina fixes
+
+[33mcommit d9148f58181d9c23bbcc10d5ab2084b99e76b691[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Thu Feb 13 14:57:46 2020 +0100
+
+    Homepage fixed
+
+[33mcommit f186f156cac83b829aac54895165f2a9bfd0fbc0[m
+Merge: 6f45d72 61069cd
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Thu Feb 13 13:40:38 2020 +0100
+
+    inlog pagina
+
+[33mcommit 6f45d72caec407d6725350bc4641277b4d33958b[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Thu Feb 13 13:38:14 2020 +0100
+
+    inlog pagina
+
+[33mcommit 61069cd106298407ef8270d60a96bfe49bf4df73[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Thu Feb 13 13:37:15 2020 +0100
+
+    Signup header
+
+[33mcommit 42f040dc23488a37311f726a9b88b206bd5a75b4[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Feb 10 15:40:15 2020 +0100
+
+    Initial commit
+
+[33mcommit 6f8a34ef394db3e19b72d62a430bdbf062445462[m
+Author: Talha Berk Kiymaz <326753@student.mboutrecht.nl>
+Date:   Mon Feb 10 15:12:15 2020 +0100
+
+    Initial
+
+[33mcommit a62711f80f507340659fe8c9604d13bd572374a0[m
+Author: Ahmet Erdogan <329188@student.mboutrecht.nl>
+Date:   Mon Feb 10 13:14:50 2020 +0100
+
+    Initial commit
