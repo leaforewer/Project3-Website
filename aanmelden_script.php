@@ -11,7 +11,7 @@ if (empty($_POST["email"])) {
 } else {
     // Eerst contact maken met de mysql-server
     include("./connect_db.php");
-    include("./sanitize.php");
+    include("./functions.php");
 
     // De $_POST["email"] waarde schoonmaken
     $email = sanitize($_POST["email"]);
@@ -34,9 +34,9 @@ if (empty($_POST["email"])) {
         $handteken = sanitize($_POST["handteken"]);
         $nationaliteit = sanitize($_POST["nationaliteit"]);
 
-        $password = "geheim";
-        $password_hash = password_hash($password, PASSWORD_BCRYPT);
-
+        // $password = "geheim";
+        // $password_hash = password_hash($password, PASSWORD_BCRYPT);
+        $array = mk_password_hash_from_microtime();
 
         $sql = "INSERT INTO `users` (`id`,
                                `username`, 
