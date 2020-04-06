@@ -43,13 +43,15 @@ if (empty($_POST["email"])) {
                                `email`, 
                                `password`,
                                `nationaliteit`,
-                               `handteken`)
+                               `handteken`,
+                               `activated`)
                       values (NULL,
                               '$username',
                               '$email',
-                              '$password_hash',
+                              '{$array["password_hash"]}',
                               '$nationaliteit',
-                              '$handteken')";
+                              '$handteken',
+                              0)";
         // echo $query; exit();
         $result = mysqli_query($conn, $sql);
 
@@ -75,6 +77,7 @@ if (empty($_POST["email"])) {
                             <p>Met vriendelijke groet,</p>
                             <p>fdfdffdf</p>
                             <p>CEO adhd.nl</p> 
+                            <p>'. $array["date"] . ' - ' . $array["time"] . '<p>
                         </body>
                         </html>';
                             
