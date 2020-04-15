@@ -15,7 +15,7 @@
                         <a class="nav-link" href="./index.php?content=game">Game</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">navbar</a>
+                        <a class="nav-link" href="./index.php?content=contact">Contact</a>
                     </li>
                 </ul>
             </div>
