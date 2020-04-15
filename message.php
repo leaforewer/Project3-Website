@@ -1,16 +1,9 @@
 <?php
-<<<<<<< HEAD
- $alert = (isset($_GET["alert"]))? $_GET["alert"]: "default";
- $id = (isset($_GET["id"]))? $_GET["id"]: "";
- $pwh = (isset($_GET["pwh"]))? $_GET["pwh"]: "";
- 
-=======
 
 $alert = (isset($_GET["alert"]))? $_GET["alert"]: "default";
 $id = (isset($_GET["id"]))? $_GET["id"]: "";
 $pwh = (isset($_GET["pwh"]))? $_GET["pwh"]: "";
 
->>>>>>> f5f7f59d068569d52105bc27a2a6670247aa17bd
     switch ($alert) {
         case 'no-email': 
             echo'<div class="alert alert-info w-50 mx-auto mt-5" name="alert" role="alert">
