@@ -13,6 +13,15 @@
             </div>';
             header("Refresh: 3; ./index.php?content=aanmelden");
         break;
+        case 'no-email2': 
+            echo'<div class="alert alert-info w-50 mx-auto mt-5" name="alert" role="alert">
+            <h4 class="alert-heading">Geen e-mailadres ingevuld!</h4>
+            <p>U bent verplicht uw e-mailadres in te vullen voor het maken van contact met klantservice.</p>
+            <hr>
+            <p class="mb-0">Probeer het opnieuw</p>
+            </div>';
+            header("Refresh: 3; ./index.php?content=contact");
+        break;
         case 'emailexists':
             echo'<div class="alert alert-danger w-50 mx-auto mt-5" name="alert" role="alert">
             <h4 class="alert-heading">E-mailadres bestaat al!</h4>
@@ -42,6 +51,18 @@
             <p class="mb-0">U wordt teruggestuurd naar de inlogpagina</p>
             </div>';
             header("Refresh: 3; ./index.php?content=inloggen");
+        break;
+        case 'contact-success':
+            // $time = 6;
+            // $page = "inloggen";
+            echo'<div class="alert alert-success w-50 mx-auto mt-5" name="alert" role="alert">
+            <h4 class="alert-heading">Uw opmerkingen zijn verstuurd!</h4>
+            <p>U heeft succesvol uw opmerkingen gestuurd en in een paar dagen gekeken wordt naar uw mail. U ontvangt een e-mail met daarin een reactie van ons. </p>
+            <p>Dank u wel voor uw feedback!</p>
+            <hr>
+            <p class="mb-0">U wordt teruggestuurd naar de homepagina</p>
+            </div>';
+            header("Refresh: 3; ./index.php?content=home");
         break;
         case 'hacker-alert':
             // $time = 6;
