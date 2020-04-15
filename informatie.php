@@ -133,4 +133,63 @@
             </div>
         </div>
     </div>
+    <!-- zesde tab -->
+    <div class="card">
+        <div class="card-header" id="headingSix">
+            <h6 class="mb-0">
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" id="card_collapse_text">
+                    Oorzaken van ADHD
+                </button>
+            </h6>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body">
+               ADHD wordt veroorzaakt door een complex samenspel van genetische, neurobiolofische en omgevingsfactoren. Het aandeel van 
+               deze factoren kan verschillen. Factoren die een rol spelen zijn: 
+                <br>
+                <br>
+                - Erfelijke aanleg
+                <br>
+                - Problemen in het executief functioneren van de hersenen
+                <br>
+                - Afwijkingen in hersenstructuren
+                <br>
+                - Verminderde gevoeligheid voor bekrachtiging
+                <br>
+                - Omgevingsfactoren, zoals blootstelling aan bepaalde stoffen tijdens de zwangerschap (nicotine, alcohol), 
+                  de eetgewoonte van moeder tijdens zwangerschap, vroeggeboorte of laag geboortegewicht, 
+                  stress in het gezin en vroege traumatische ervaringen.
+            </div>
+        </div>
+    </div>
+    <!-- zevenste tab -->
+    <div class="card">
+        <div class="card-header" id="headingSeven">
+            <h6 class="mb-0">
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" id="card_collapse_text">
+                    Behandeling ADHD
+                </button>
+            </h6>
+        </div>
+        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+            <div class="card-body">
+                De behandeling van ADHD bestaat meestal uit een combinatie van:
+                <br>
+                <br>
+                - Individuele behandeling door een psycholoog
+                <br>
+                - Groepstherapie
+                <br>
+                - Aanvullende groepsbehandeling
+                <br>
+                - Medicatie
+                <br>
+                - Psycho-educatie
+                <br>
+                <br>
+                Tijdens de behandelingen van ADHD is er ook aandacht voor bijkomende klachten en/of stoornissen, zoals bijv.
+                slaapproblemen, angst, depressie of een verslaving. 
+            </div>
+        </div>
+    </div>
 </div>
