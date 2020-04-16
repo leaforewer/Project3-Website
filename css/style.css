@@ -157,7 +157,8 @@ img::-moz-selection {
     font-family: 'Montserrat', sans-serif;
     position: relative;
     align-items: right;
-    padding-left: 10px;
+    padding: 0.1em 1em !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .sign-link:hover {
